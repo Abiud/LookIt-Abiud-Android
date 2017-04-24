@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lovek.lookit.Info"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/scoreboardimg"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="430dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:id="@+id/row1.1"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:id="@+id/row1.2"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBaseline="@+id/row1.1"
+        android:layout_alignBottom="@+id/row1.1"
+        android:layout_toRightOf="@+id/row1.1"
+        android:layout_toEndOf="@+id/row1.1"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/row2.2"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/row1.2"
+        android:layout_alignLeft="@+id/row1.2"
+        android:layout_alignStart="@+id/row1.2"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/row2.1"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBaseline="@+id/row2.2"
+        android:layout_alignBottom="@+id/row2.2"
+        android:layout_alignLeft="@+id/row1.1"
+        android:layout_alignStart="@+id/row1.1"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/row3.2"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/row2.2"
+        android:layout_alignLeft="@+id/row2.2"
+        android:layout_alignStart="@+id/row2.2"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/row3.1"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBaseline="@+id/row3.2"
+        android:layout_alignBottom="@+id/row3.2"
+        android:layout_alignLeft="@+id/row2.1"
+        android:layout_alignStart="@+id/row2.1"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/row4.2"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/row3.2"
+        android:layout_alignLeft="@+id/row3.2"
+        android:layout_alignStart="@+id/row3.2"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/row4.1"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBaseline="@+id/row4.2"
+        android:layout_alignBottom="@+id/row4.2"
+        android:layout_alignLeft="@+id/row3.1"
+        android:layout_alignStart="@+id/row3.1"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/row5.2"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/row4.2"
+        android:layout_alignLeft="@+id/row4.2"
+        android:layout_alignStart="@+id/row4.2"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/row5.1"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBaseline="@+id/row5.2"
+        android:layout_alignBottom="@+id/row5.2"
+        android:layout_alignLeft="@+id/row4.1"
+        android:layout_alignStart="@+id/row4.1"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/row6.2"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/row5.2"
+        android:layout_alignLeft="@+id/row5.2"
+        android:layout_alignStart="@+id/row5.2"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/row6.1"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBaseline="@+id/row6.2"
+        android:layout_alignBottom="@+id/row6.2"
+        android:layout_alignLeft="@+id/row5.1"
+        android:layout_alignStart="@+id/row5.1"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/row7.2"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/row6.2"
+        android:layout_alignLeft="@+id/row6.2"
+        android:layout_alignStart="@+id/row6.2"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/row7.1"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBaseline="@+id/row7.2"
+        android:layout_alignBottom="@+id/row7.2"
+        android:layout_alignLeft="@+id/row6.1"
+        android:layout_alignStart="@+id/row6.1"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/row8.2"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/row7.2"
+        android:layout_alignLeft="@+id/row7.2"
+        android:layout_alignStart="@+id/row7.2"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/row8.1"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBaseline="@+id/row8.2"
+        android:layout_alignBottom="@+id/row8.2"
+        android:layout_alignLeft="@+id/row7.1"
+        android:layout_alignStart="@+id/row7.1"
+        android:maxLines="1"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
